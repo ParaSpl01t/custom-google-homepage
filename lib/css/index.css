@@ -1,0 +1,100 @@
+@font-face {
+	font-family: "manrope";
+	src: url("../fonts/manrope-regular.woff2") format("woff2"),
+		url("../fonts/manrope-regular.woff") format("woff");
+}
+
+html {
+	box-sizing: border-box;
+}
+
+
+html,
+body {
+	font-family: 'manrope';
+	height: 100%;
+	width: 100%;
+}
+
+*,
+*:before,
+*:after {
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	box-sizing: inherit;
+}
+
+main {
+	text-align: center;
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+#logo {
+	padding-top: 30vh;
+	font-size: 100px;
+	margin-bottom: 5vh;
+	font-weight: bold;
+}
+
+form {
+	width: 100%;
+}
+
+.input-container {
+	position: relative;
+	width: calc(100vw - 64px);
+	max-width: 512px;
+	border: 1px solid #dfe1e5;
+	border-radius: 300px;
+	overflow: hidden;
+	padding: 0 12px 0 32px;
+	margin: 0 auto;
+}
+
+.icon {
+	position: absolute;
+	top: 0;
+	color: #999;
+	height: 46px;
+	line-height: 46px;
+	left: 16px;
+}
+
+input {
+	font-size: 16px;
+	height: 46px;
+	line-height: 46px;
+	width: 100%;
+	text-align: left;
+	border: 0;
+	outline: 0;
+	padding: 0 8px;
+}
+
+button {
+	height: 34px;
+	font-size: 14px;
+	border: 1px solid transparent;
+	outline: 0;
+	background-color: #f2f2f2;
+	background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+	color: #5F6368;
+	border-radius: 4px;
+	padding: 0 12px;
+	margin: 32px 2px;
+}
+
+button:hover,
+button:focus {
+	border: 1px solid #c6c6c6;
+	background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+	color: #222;
+}
+
+@media only screen and (max-width: 600px) {
+	#logo{
+		font-size:50px;
+	}
+}
