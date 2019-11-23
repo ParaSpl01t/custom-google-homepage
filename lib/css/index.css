@@ -1,16 +1,4 @@
-@font-face {
-  font-family: 'Product Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Product Sans'), local('ProductSans-Medium'), url(https://fonts.gstatic.com/s/productsans/v10/pxicypQkot1TnFhsFMOfGShd5PSbQWlBkm8.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-
-/* @font-face {
-	font-family: "manrope";
-	src: url("../fonts/manrope-regular.woff2") format("woff2"),
-		url("../fonts/manrope-regular.woff") format("woff");
-} */
+https://fonts.googleapis.com/css?family=Product+Sans:400
 
 html {
 	box-sizing: border-box;
