@@ -1,3 +1,4 @@
+https://fonts.googleapis.com/css?family=Product+Sans:400
 @font-face {
 	font-family: "manrope";
 	src: url("../fonts/manrope-regular.woff2") format("woff2"),
@@ -11,7 +12,7 @@ html {
 
 html,
 body {
-	font-family: 'manrope';
+	font-family: 'Product Sans', sans-serif;
 	height: 100%;
 	width: 100%;
 }
