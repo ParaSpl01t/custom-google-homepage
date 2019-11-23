@@ -1,9 +1,10 @@
-https://fonts.googleapis.com/css?family=Product+Sans:400
-@font-face {
+https://fonts.googleapis.com/css?family=Product+Sans:400,500
+
+/* @font-face {
 	font-family: "manrope";
 	src: url("../fonts/manrope-regular.woff2") format("woff2"),
 		url("../fonts/manrope-regular.woff") format("woff");
-}
+} */
 
 html {
 	box-sizing: border-box;
@@ -36,7 +37,7 @@ main {
 	padding-top: 30vh;
 	font-size: 90px;
 	margin-bottom: 5vh;
-	font-weight: bold;
+	font-weight: 500;
 }
 
 form {
